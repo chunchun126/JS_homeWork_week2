@@ -1,0 +1,21 @@
+
+// * {
+//     outline: solid 1px black;
+// }
+body {
+    background-color: #333;
+    font-family: 'Microsoft JhengHei ', 'Noto Sans SC', sans-serif;
+}
+.img-wrap {
+    height: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.3);
+    transition: 0.5s;
+    &:hover {
+        transform: scale(1.1);
+    }  
+}
+.lineThrough {
+    text-decoration: line-through red;
+}

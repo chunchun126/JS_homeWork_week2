@@ -1,0 +1,25 @@
+body {
+  background-color: #333;
+  font-family: 'Microsoft JhengHei ', 'Noto Sans SC', sans-serif;
+}
+
+.img-wrap {
+  height: 350px;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.img-wrap:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.lineThrough {
+  -webkit-text-decoration: line-through red;
+          text-decoration: line-through red;
+}
+/*# sourceMappingURL=all.css.map */
